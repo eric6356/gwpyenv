@@ -1,2 +1,2 @@
 FROM python:2.7
-  RUN apt-get update && apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+  RUN apt-get update && apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose -y
